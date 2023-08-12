@@ -1,0 +1,680 @@
+body {
+    color: white !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+li {
+    list-style: none;
+}
+
+.fs {
+    font-size: 18px;
+}
+
+.main-title h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #e1dfe6 0%,
+            #80ff46 29%,
+            #ffffff 67%,
+            #4ff702 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-weight: 600;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.services-title h1 {
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 55px;
+}
+
+
+/* Button */
+
+.btn-design {
+    font-size: 12px;
+    border: none;
+    background-color: var(--color-parrot) !important;
+    border-radius: 25px;
+    letter-spacing: 0.7px;
+    transition: 0.5s;
+    font-weight: 500;
+    padding: 12px 18px !important;
+}
+
+.btn-design:hover {
+    color: var(--color-white);
+    background-color: var(--color-dark-gray) !important;
+}
+
+.form-btn .btn-design {
+    width: 100px !important;
+}
+
+/* ------------------------------------            ------------------------------------- */
+.mobaile-services .container,
+#website-dev-section .container,
+#website-section-provide .container,
+#ui-ux-provide .container,
+#web-section-card .container {
+    max-width: 1200px;
+}
+
+.what-we-provide .container { 
+    padding-top: 30px;
+}
+
+/* -----------------------------  Start  Website's card   ----------------------- */
+#web-section-card .container .row{
+    padding: 70px 0 30px 0;
+}
+
+#web-section-card .single-box-card {
+    margin-bottom: 20px;
+    background-color: var(--theme-black);
+}
+#web-section-card .image img{
+    width: 55px;
+}
+#web-section-card .content h5{
+    padding: 20px 0 15px 0;
+    font-size: 24px;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(194, 191, 191, 0.2);
+}
+#web-section-card .content p , #web-section-card .content ul li{
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: 300;
+}
+#web-section-card .content ul{
+    padding-left: 10px;
+    line-height: 15px;
+}
+/* ------------------------------------End  Website's card  ------------------------------ */
+
+#section1 .mobaile-text {
+    font-size: 14px;
+}
+
+#tsparticles {
+    width: 100vw;
+}
+
+#center-section .mobaile-title {
+    text-align: center;
+}
+
+#center-section .row-center-section {
+    padding: 50px 0 50px 0;
+}
+
+#second-center .text-mobile-center {
+    padding: 60px 0px;
+}
+
+.col-cross {
+    padding: 20px 0 50px 0;
+}
+
+#ui-ux-box .single-box-card {
+    height: auto;
+}
+
+#ui-ux-box .row-box-card {
+    margin-top: 40px;
+}
+
+/* ------------------------------------- TITLE  -------------------------------------  */
+
+.single-box-mobaile .mobaile-title {
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+#contact {
+    background-color: black;
+}
+
+.title-font {
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.font-text {
+    font-size: 15px;
+    line-height: 24px;
+    word-spacing: 2px;
+    font-weight: 10 !important;
+}
+
+.pre-text {
+    /* text-align: justify; */
+    padding-right: 90px;
+}
+
+.font-manag {
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.title-font2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Form css */
+.form {
+    /* border: solid 2px black; */
+    box-shadow: 0 0 10px rgba(207, 204, 204, 0.5);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.single-inpute-box input {
+    border-radius: 5px !important;
+    background-color: white;
+    color: black !important;
+    padding: 5px;
+    width: 45%;
+    border: none !important;
+
+}
+
+input[type='email'] {
+    background-color: white;
+}
+
+#form ::placeholder {
+    color: black;
+    font-family: var(--font-poppin);
+    font-size: 12px;
+    letter-spacing: 1px;
+    /* font-weight: 600;
+    padding-left: 10px; */
+}
+
+#contact ::placeholder {
+    color: black;
+    font-family: var(--font-poppin);
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.first-inpute-box {
+    display: flex;
+    width: 100%;
+}
+
+.font-manag {
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.same-inpute {
+    margin-bottom: 20px;
+    padding-right: 20px;
+    width: 50%;
+}
+
+.text-ipute input {
+    height: 70px;
+}
+
+
+#form input:focus {
+    outline: none;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    outline: none;
+    box-shadow: 0 0 10px 0 rgb(219, 213, 213);
+}
+
+#form input:hover {
+    box-shadow: 0 0 10px !important;
+}
+
+/* Contact Us Page End */
+
+/* --------------------------------------------------- */
+
+/* SERVICES MOBILE PAGE START */
+
+.main-title {
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+}
+
+.mobaile-title {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+
+.col-mobaile-img {
+    width: 40% !important;
+}
+
+.img-box-mobaile img {
+    width: 100%;
+}
+
+.mobaile-text {
+    font-size: 13px;
+    font-weight: 300 !important;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.col-mobaile-img1 {
+    align-items: end;
+}
+
+.col-mobaile-img2 {
+    align-items: start;
+}
+
+.icon1 img {
+    width: 150px;
+    position: absolute;
+    left: 0;
+    z-index: -2;
+    opacity: 0.3;
+}
+
+.icon2 img {
+    opacity: 0.3;
+    width: 100px;
+    position: absolute;
+    right: 0;
+    bottom: -15px !important;
+    z-index: -1;
+}
+
+.text-mobile-center {
+    max-width: 900px;
+    text-align: center;
+    margin: auto;
+    line-height: 24px;
+    z-index: 3;
+    font-weight: 300 !important;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.relative {
+    position: relative;
+}
+
+/* SERVICES MOBILE PAGE END */
+/* ------------------------------------ In Mobile , Card Section -------------------------------------- */
+#box-card .container {
+    max-width: 1250px;
+}
+
+.row-box-card {
+    padding: 50px 0px;
+}
+
+.icon-box-card {
+    width: 50px;
+}
+
+.icon-box-card img {
+    width: 100%;
+    transition: 0.5s;
+    transform: scale(1);
+}
+
+.phone {
+    font-size: 30px !important;
+    color: rgb(143, 190, 35) !important;
+}
+
+.icons-box {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(236, 166, 14, 0.9);
+    border-radius: 50%;
+    width: 70px;
+    transform: scale(1);
+    transition: 0.5s;
+    height: 70px;
+    box-shadow: 0 0 5px var(--color-parrot);
+    background-color: rgba(116, 221, 116, 0.5);
+}
+
+.icons-box:hover {
+    box-shadow: 0 0 10px var(--color-parrot);
+    transform: scale(1.1);
+
+}
+
+.icon-box-card:hover img {
+
+    transform: translate(100px);
+    transform: scale(1.3);
+}
+
+.bg-black {
+    background-color: var(--theme-black);
+}
+
+.single-box-card {
+    border-radius: 10px;
+    transition: 0.5s;
+    box-shadow: 0 0 5px rgba(194, 191, 191, 0.5);
+    padding: 30px 30px;
+}
+
+.col-box-card {
+    margin-bottom: 25px;
+}
+
+.single-box-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px var(--color-parrot);
+}
+
+.inner-box-card-title {
+    padding: 20px 0 0 0;
+    font-size: 24px;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(194, 191, 191, 0.2);
+}
+
+.inner-box-card-title p {
+    transition: 0.5s;
+}
+
+.inner-box-card-title p:hover {
+    color: var(--color-parrot);
+}
+
+.inner-box-card-text {
+    padding: 20px 0;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+
+/* ----------------------------------  DIGITAL MARKETING START ------------------------------- */
+.icon-flex {
+    padding-top: 10px;
+}
+
+#digital-marketing .img-icon-done,
+#email-marketing .img-icon-done {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.icon-flex p {
+    margin: 0px !important;
+}
+
+.icon-flex {
+    justify-content: start;
+    margin: 0px !important;
+}
+
+.row-same {
+    align-items: center !important;
+    padding: 10px 0px;
+}
+
+.img-facbook img {
+    max-width: 450px;
+}
+
+.img-social img {
+    max-width: 500px;
+}
+
+#email .row-same {
+    padding-top: 40px !important;
+}
+
+#google .row-same,
+#facebook .row-same {
+    padding: 0px !important;
+}
+
+/* DIGITAL MARKETING END */
+
+/* ------------------------------------- Contact us ------------------------------------------ */
+#contact ::placeholder {
+    font-size: 14px !important;
+}
+
+.row-contact {
+    background-color: rgba(32, 32, 32, 0.5);
+    padding: 20px 10px;
+}
+
+.col-contact {
+    padding: 0px 35px !important;
+}
+
+.single-line {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.single-line1 {
+    display: flex;
+}
+
+.first-box {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.second-box {
+    width: 50%;
+
+}
+
+.form-title {
+    padding: 5px 0;
+}
+
+#contact input,
+.msg-box textarea {
+    background-color: rgb(225, 228, 217);
+    width: 100%;
+    padding: 5px 20px;
+}
+
+
+.col-contact-icon {
+    padding: 60px 0px;
+}
+
+.single-icon {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    margin: auto;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--color-parrot);
+    /* box-shadow: 0 0 5px var(--color-light-gray); */
+    margin-bottom: 15px;
+    transition: 0.5s;
+    transform: scale(1);
+
+}
+
+.single-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(7, 241, 7, 0.5);
+
+}
+
+.main-contact-icon {
+    text-align: center;
+}
+
+.contact-icon-text {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.contact-icon-text span {
+    font-weight: 500;
+    padding-right: 5px;
+}
+
+.mobaile-text ul li {
+    list-style: disc;
+    color: white !important;
+    padding-left: 0px !important;
+}
+
+.mobaile-text ul {
+    padding-left: 15px !important;
+}
+
+
+/* ================= */
+
+.img-box-mobaile1 img {
+    background-color: transparent;
+}
+
+/* -------------------------------------  Footer Start ---------------------------------------*/
+
+.title-footer {
+    font-weight: 500 !important;
+    font-size: 20px;
+}
+
+.footer-list {
+    margin-top: 25px;
+}
+
+.footer-list li {
+    margin-bottom: 10px;
+    font-size: 12px;
+    word-spacing: 2px;
+    transition: 0.5s;
+}
+
+.footer-list li:hover {
+    color: var(--color-parrot);
+}
+
+.img-size {
+    width: 200px;
+}
+
+.img-size img {
+    width: 100%;
+}
+
+#inpute-box .btn-design {
+    padding: 8px 13px !important;
+    letter-spacing: 0;
+}
+
+.footer-single-box {
+    padding-top: 20px;
+}
+
+.inpute-box {
+    background-color: #292929;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    max-width: 310px;
+    margin-top: 60px;
+}
+
+.inpute-box:hover {
+    box-shadow: 0 0 5px;
+}
+
+#footer input[type=email] {
+    all: unset;
+    padding-left: 10px;
+    width: 115px;
+}
+
+.footer-icon {
+    width: 100px;
+    font-size: 20px;
+    padding-top: 100px;
+    transition: 0.5s;
+    align-items: center;
+    margin: auto;
+}
+
+.footer-icon #icon1:hover,
+#icon2:hover,
+#icon3:hover {
+    color: var(--text-bg);
+}
+
+#footer ::placeholder {
+    color: white;
+    font-size: 13px;
+}
+
+.footer-last-line {
+    font-size: 12px;
+    transition: 0.5s;
+    padding-bottom: 15px;
+}
+
+.footer-last-line:hover {
+    color: var(--text-bg);
+}
+
+.arrow-plus{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 0px 12px;
+    color: var(--color-light-gray);
+}
+.accordion-title h6 {
+    margin: 0;
+}
+ .accordion-title:hover ,.arrow-plus:hover{
+    color: var(--color-parrot);
+}
+/* Footer End */
