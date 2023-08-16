@@ -23,7 +23,7 @@ export default function GetStartedBtn() {
     // ------------------------- validation
 
     const onSubmit = (data) => {
-        emailjs.sendForm('service_h4h689h', 'template_x9m39vi', form.current, '4ycg7NDPP1DT499TG')
+        emailjs.sendForm('service_b91uptu', 'template_6lb4qcn', form.current, 'jY1DW-byrR4wvr4Qr')
             .then((result) => {
                 console.log(result.text);
                 console.log("msg send");
@@ -76,11 +76,11 @@ export default function GetStartedBtn() {
                                                 {errors.subject && <p className="error">{errors.subject.message}</p>}
                                                 <div className='d-flex align-items-start'>
                                                     <BsFillPencilFill className='e-icon'></BsFillPencilFill>
-                                                    <textarea id="msg" cols="30" rows="4" placeholder='Leave a messsage for us. We will get back soon. *' className='w-100 me-2' name="msg"
-                                                        {...register('msg', { required: 'Leave a message for us.' })}
+                                                    <textarea id="mymsg" cols="30" rows="4" placeholder='Leave a messsage for us. We will get back soon. *' className='w-100 me-2' name="mymsg"
+                                                        {...register('mymsg', { required: 'Leave a message for us.' })}
                                                     ></textarea>
                                                 </div>
-                                                {errors.msg && <p className="error">{errors.msg.message}</p>}
+                                                {errors.mymsg && <p className="error">{errors.mymsg.message}</p>}
                                                 <div >
                                                     <AiOutlineUser className='e-icon'></AiOutlineUser>
                                                     <input type="text" placeholder='Enter your Name *' className='w-100 me-2' name='username' id='username' 

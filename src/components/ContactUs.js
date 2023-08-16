@@ -23,7 +23,8 @@ export default function ContactUs() {
   const navigate = useNavigate(); // redirect to /home
 
   const sendMail = (data) => {
-    emailjs.sendForm('service_h4h689h', 'template_x9m39vi', form.current, '4ycg7NDPP1DT499TG')
+    emailjs.sendForm('service_b91uptu', 'template_6lb4qcn', form.current, 'jY1DW-byrR4wvr4Qr')
+    // emailjs.sendForm('jY1DW-byrR4wvr4Qr', 'template_6lb4qcn', form.current, 'jY1DW-byrR4wvr4Qr')
       .then((result) => {
         console.log(result.text);
         console.log("message was send");
@@ -91,10 +92,10 @@ export default function ContactUs() {
                     <div className="single-line">
                       <div className="single-box msg-box">
                         <label className='form-title'>MESSAGE</label>
-                        <textarea id="msg" cols="5" rows="5" name='msg' placeholder='Leave a Message for us.'
-                          {...register('msg', { required: 'Leave a message for us.' })}
+                        <textarea id="mymsg" cols="5" rows="5" name='mymsg' placeholder='Leave a Message for us.'
+                          {...register('mymsg', { required: 'Leave a message for us.' })}
                         ></textarea>
-                        {errors.msg && <p className="error m-0">{errors.msg.message}</p>}
+                        {errors.mymsg && <p className="error m-0">{errors.mymsg.message}</p>}
                       </div>
                     </div>
                     <div className="form-btn same-inpute">
